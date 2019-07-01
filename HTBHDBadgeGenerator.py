@@ -43,8 +43,6 @@ except getopt.GetoptError as err:
     print ('HTBHDBadgeGenerator.py -htbid <HackTheBoxProfileID>')
     sys.exit(1)
 
-print('OPTIONS   :', options)
-
 for opt, arg in options:
     if opt == '--htbid':
         htbId = arg
